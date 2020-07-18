@@ -1,0 +1,86 @@
+body{
+    background-color:black;
+}
+#container{
+    background-color:pink;
+    width:1000px;
+    height:1000px;
+    margin :20px auto;
+    position: relative;
+}
+#calculator{
+    background-color:rgb(245, 235, 235);
+    width: 900px;
+    height: 900px;
+    border-radius: 5px;
+    position: relative;
+    top:50px;
+    margin:0px auto;
+
+
+}
+#output{
+    height: 300px;
+}
+#history{
+   
+    text-align:right;
+    font-size:40px;
+    padding-right: 0px;
+    color:gray;
+    margin:20px;
+    
+    
+}
+#result{
+    
+    text-align: right;
+    font-size:80px;
+    padding-right:50px;
+}
+#keyboard{
+    height:300px;
+    margin-left: 70px;
+    margin-bottom:80px;
+    
+}
+.number,.operator,.empty{
+    width: 90px;
+    height:90px;
+    border-radius:50%;
+    border-width:0;
+    margin: 20px;
+    margin-right: 80px;
+    margin-left: 30px;
+    margin-bottom: 1px;
+    /*margin:20px auto;*/
+    float: left;
+    font-weight: bold;
+    font-size: 30px;
+}
+.number,.empty{
+    background-color:rgb(245, 235, 235);
+    
+}
+.operator{
+    background-color:rgb(153, 147, 147);
+}
+/*#div{
+    background-color:rgb(255, 0, 106);
+}
+#mul{
+    background-color:rgb(0, 119, 255);
+}
+
+#min{
+    background-color:rgb(231, 228, 15);
+}
+#add{
+    background-color: rgb(55, 226, 55);
+}
+#eq{
+    background-color:rgb(194, 32, 226);
+}
+.number,.operator{
+    cursor: pointer;
+}*/
